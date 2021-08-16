@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: #c14040;
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+}
+.mainContainer{
+    padding:0.5rem;
+}
+.containerHeader {
+    background-color: white;
+    color:#c14040;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin:0px 1rem;
+    box-shadow: 5px 5px 5px 5px  #982c2c;
+}
+.lienheader{
+text-decoration: none;
+color:#c14040;
+}
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family:  'Press Start 2P', cursive;
+}
+h2{
+    color: white;
+    font-size:3rem;
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-size:1.6rem;
+    padding:none;
+}
+nav {
+display: flex;
+align-items: center;
+}
+.lienNav {
+text-decoration: none;
+color: #c14040;
+font-size: 1.2rem;
+margin-right: 10px;
+}
+.liendetail {
+text-decoration: none;
+color:black;
+font-size: 1.2rem;
+text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.onePokemon{
+width: 20vw;
+height: 40vh;
+background-color: #982c2c;
+box-shadow: 2px 2px 10px 2px  #982c2c;
+border-radius: 1rem;
+margin:1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.onePokemon:hover{
+    box-shadow: 0px 0px 0px 5px white;
+}
+
+figure {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.imgPokemon{
+width: 80%;
+height: 80%;
+}
+.imgPokemonOne {
+width: 30rem;
+height: 30rem;
+}
+.detail{
+width: 50vw;
+height: 45vh;
+background-color: #982c2c;
+box-shadow: 2px 2px 10px 2px  #982c2c;
+border-radius: 1rem;
+margin:1rem;
+padding: 1rem;
+}
+.type {
+width: 3rem;
+height: 1.5rem;
+display: flex;
+}
+.type1 {
+background-color: yellow;
+width: 50%;
+height: 50%;
+border:1px solid black;
+border-top-left-radius: 1rem;
+border-bottom-left-radius: 1rem;
+    
+}
+.type2{
+background-color: green;
+width: 50%;
+height: 50%;
+border:1px solid black;
+border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+}
+.statistique{
+
+display: flex;
+flex-direction: column;
+}
+.stat {
+display:flex;
+height: 1.5rem;
+padding:0.2rem 0rem;
+
+}
+.lienPokemon{
+text-decoration: none;
+color: white;
+}
+h4 {
+    color: white;
+    font-size:1.5rem;
+    padding: 0.2rem 0rem;
+}
+label {
+    color: white;
+    width:25%;
+    font-size: 1em;
+    font-weight: bold;
+}
+.statp {
+    color: white;
+    width:20%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+progress{
+width: 35%;
+
+}
+.typeSpan {
+       padding: 2rem;
+}
+.containerType {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.type {
+    height: 5rem;
+    width: 15rem;
+     box-shadow: 2px 2px 10px 2px  #982c2c;
+    border-radius: 1rem;
+    padding:5px;
+    margin:10px;
+    box-shadow: 0 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type:hover{
+box-shadow: 0px 0px 0px 5px white;    
+}
+.lientype {
+    text-decoration: none;
+    color:white;
+}
+footer {
+width: 100vw;
+height: 5vh;
+background-color: #982c2c;
+position: -5px;
+display: flex;
+align-items:center;
+justify-content: center;
+}
+
+.footerP {
+text-align: center;
+padding:3rem;
+color: white;
+font-size: 1.2rem;
+}

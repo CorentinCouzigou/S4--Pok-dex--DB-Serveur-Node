@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+
+<span class="typeSpan">Cliquez sur une type pour voir tous les Pokémon de ce type </span>
+
+<div class="containerType">
+<% for (let type of allTypes ){ %>
+<div class="type" style="background-color:#<%= type.color %>;"><a class="lientype" href="/type/<%= type.name %>"><%= type.name %></a></div>
+<% } %>
+</div>
